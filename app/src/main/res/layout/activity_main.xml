@@ -80,13 +80,20 @@
         android:text="개인정보이용약관 동의합니다."
         android:checked="true"
         />
-
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="center"
-        android:src="@drawable/netplus_logo01"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+     >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/netplus_logo01"
+            />
+    </LinearLayout>
+
 
     <Button
         android:layout_width="match_parent"
