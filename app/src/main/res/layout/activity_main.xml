@@ -83,6 +83,7 @@ android:padding="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="개인정보이용약관 동의합니다."
+        android:visibility="gone"
         android:checked="true"
         />
     <LinearLayout
